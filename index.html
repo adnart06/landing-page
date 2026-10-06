@@ -1,114 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
 
     <!-- Important for responsive/mobile design -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Adrian Ruiz | Portfolio</title>
 
     <!-- Google Font similar to the condensed font in your design -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shanti&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shanti&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize-fwd.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
+  <body>
+    <header>
+        <!-- Add Nav for the sections ie. about, projects and contact -->
+    </header>
     <main class="portfolio">
+      <!-- HEADER -->
+      <header class="header">
+        <!-- logo -->
+        <div class="logo">
+          <img src="images/favicon_ar.svg" alt="ar-logo" />
+        </div>
 
-        <!-- HEADER -->
-        <header class="header">
+        <h1 class="page-title">Welcome</h1>
+      </header>
 
-            <!-- Replace this with your actual logo image if you have one -->
-            <div class="logo">
-                <img src="/Users/adn_home/Desktop/HTML FILES/Project_1_Landing_Page/Landing_Page/favicon_ar/favicon_ar.svg" alt="ar-logo">
-				
-            </div>
+      <!-- BANNER -->
+      <div class="banner">
+        <a href="main.html">
+          <img
+            src="images/header_lowrate.gif"
+            alt="Adrian Ruiz graphic designer"
+            class="banner-image"
+          />
+        </a>
+      </div>
 
-            <h1 class="page-title">WELCOME</h1>
-		
+      <!-- INTRODUCTION -->
+      <section class="intro">
+        <h2>
+          Hello, my name is
+          <span>Adrian Ruiz</span>
+        </h2>
 
-        </header>
+        <p>
+          I am deeply dedicated to graphic arts and design across different
+          disciplines, such as 3d modeling and animation.
+        </p>
 
+        <p>
+          With a solid work ethic and proactive mindset, I consistently produce
+          impactful print and digital designs tailored for a wide range of
+          marketing needs.
+        </p>
 
-        <!-- BANNER -->
-        <section class="banner">
+        <!-- RESUME BUTTON -->
+        <a
+          href="https://www.figma.com/proto/OcaoHcoF9zqQSETJjRmB6M/Resume_AdnArt_Studio?node-id=3-357&t=wJ37YhifvtZvignE-1"
+          class="resume-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
+      </section>
 
-            <img
-                src="/Users/adn_home/Desktop/HTML FILES/Project_1_Landing_Page/Landing_Page/images/header_lowrate.gif"
-                alt="Adrian Ruiz graphic designer"
-                class="banner-image"
-            >
+      <!-- PROJECTS-->
+      <section class="projects">
+        <h2>Projects</h2>
 
-        </section>
-
-
-        <!-- INTRODUCTION -->
-        <section class="intro">
-
-            <h2>
-                HELLO, MY NAME IS
-                <span>ADRIAN RUIZ</span>
-            </h2>
-
-            <p>
-                I AM DEEPLY DEDICATED TO GRAPHIC ARTS AND DESIGN ACROSS
-                DIFFERENT DISCIPLINES, SUCH AS 3D MODELING AND ANIMATION.
-            </p>
-
-            <p>
-                WITH A SOLID WORK ETHIC AND PROACTIVE MINDSET, I CONSISTENTLY
-                PRODUCE IMPACTFUL PRINT AND DIGITAL DESIGNS TAILORED FOR A
-                WIDE RANGE OF MARKETING NEEDS.
-            </p>
-
-
-            <!-- RESUME BUTTON -->
-            <a
-                href="resume/adrian-ruiz-resume.pdf"
-                class="resume-button"
-                target="_blank"
-            >
-                RESUME
-            </a>
-
-
-            <!-- SOCIAL LINKS -->
-            <nav class="social-links" aria-label="Social media">
-
-                <a
-                    href="https://www.behance.net/YOUR-USERNAME"
-                    target="_blank"
-                    aria-label="Behance"
-                >
-                    Bē
-                </a>
-
-                <a
-                    href="https://www.linkedin.com/in/YOUR-USERNAME"
-                    target="_blank"
-                    aria-label="LinkedIn"
-                >
-                    in
-                </a>
-
-                <a
-                    href="#"
-                    aria-label="Portfolio link"
-                >
-                    ▲
-                </a>
-
-            </nav>
-
-        </section>
-
+        <a href="#">
+          <img src="images/s_m_aa.svg" alt="Project 1" />
+          <h3>Project 1</h3>
+        </a>
+      </section>
     </main>
+    <footer class="social-media">
+      <!-- SOCIAL MEDIA -->
+      <a
+        href="https://www.behance.net/adn-art"
+        target="_blank"
+        aria-label="Behance"
+      >
+        <img
+          src="images/s_m_be.svg"
+          alt="Behance_link"
+          class="social-media-behance"
+        />
+      </a>
 
-</body>
+      <a
+        href="https://www.linkedin.com/in/adrian-art"
+        target="_blank"
+        aria-label="LinkedIn"
+      >
+        <img
+          src="images/s_m_in.svg"
+          alt="LinkedIn_link"
+          class="social-media-linkedIn"
+        />
+      </a>
+
+      <a
+        href="mailto:adrian@adnart-studio.ca"
+        target="_blank"
+        aria-label="direct-mail"
+      >
+        <img
+          src="images/s_m_g.svg"
+          alt="direct-mail_link"
+          class="social-media-mail"
+        />
+      </a>
+    </footer>
+  </body>
 </html>
